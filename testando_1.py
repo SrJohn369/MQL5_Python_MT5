@@ -38,7 +38,7 @@ else:
     data = datetime(ano_anterior, mes_anterior, dia_anterior)
 
 # Obter os dados históricos de preços usando a função MT5CopyRatesFrom()
-rates = mt5.copy_rates_from('XAUUSD', mt5.TIMEFRAME_M5, data_atual, 276)
+rates = mt5.copy_rates_from('XAUUSD', mt5.TIMEFRAME_M5, data_atual, 15)
 
 # Imprimir os dados históricos de preços
 for rate in rates:
