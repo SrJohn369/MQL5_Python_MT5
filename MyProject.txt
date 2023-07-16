@@ -1,0 +1,2 @@
+calculos para identificar candles por porcentagem de preenchimento --- ok
+identificar se o corpo da vela está acima ou abaixo de sua metade total 
